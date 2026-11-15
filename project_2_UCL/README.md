@@ -1,6 +1,6 @@
 # UCI 多用户电力负荷预测
 
-**仓库文件说明：** 原始数据和处理缓存未上传。运行前从 [UCI 数据集页面](https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014) 获取数据，将原文件放在 `data/electricityloaddiagrams20112014/LD2011_2014.txt`；若无 `data/processed.npz`，程序会在隔离运行目录生成缓存。
+**数据集来源及仓库文件说明：** 原始数据和处理缓存未上传。运行前从 [ElectricityLoadDiagrams20112014（UCI）](https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014) 获取数据，将原文件放在 `data/electricityloaddiagrams20112014/LD2011_2014.txt`；若无 `data/processed.npz`，程序会在隔离运行目录生成缓存。
 
 以 UCI ElectricityLoadDiagrams20112014 的 2014 年数据，使用 370 个用户过去 96 个 15 分钟点预测未来 96 点，比较 CNN、GRU、Transformer、Mamba 和前一天复制基线。
 

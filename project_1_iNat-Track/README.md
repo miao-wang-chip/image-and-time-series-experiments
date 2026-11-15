@@ -1,6 +1,6 @@
 # 物种分类：冻结视觉骨干与 SE 消融
 
-**仓库文件说明：** 原始数据和预训练权重未上传。运行前须自行准备 `data/train-00000-of-00001.parquet` 以及 `checkpoints/resnet50-11ad3fa6.pth`、`checkpoints/vit_b_16-c867db91.pth`。使用与已记录数据和权重哈希一致的文件，才能对应本次结果；当前仓库未包含该 Parquet 的下载地址。
+**仓库文件说明：** 原始数据和预训练权重未上传。数据集来源：[evendrow/inat24_tiny（Hugging Face）](https://huggingface.co/datasets/evendrow/inat24_tiny)。运行前须自行准备 `data/train-00000-of-00001.parquet` 以及 `checkpoints/resnet50-11ad3fa6.pth`、`checkpoints/vit_b_16-c867db91.pth`。使用与已记录数据和权重哈希一致的文件，才能对应本次结果；数据哈希见 `results/task1/config.json`。
 
 实验使用 100 类、1000 张图像，训练／验证／测试分别为 600／200／200 张；比较 ResNet-50 和 ViT-B/16 的冻结特征及分类头前的 SE 门控。
 
