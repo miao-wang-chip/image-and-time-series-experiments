@@ -27,7 +27,7 @@ cd project_1_iNat-Track
 
 ## 项目二：多用户电力负荷预测
 
-使用 [UCI ElectricityLoadDiagrams20112014](https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014) 的 2014 年数据，用 370 个用户过去 96 个 15 分钟点预测未来 96 点，比较四种编码器及前一天复制基线。以下 MAE 在反标准化后的 kW 空间计算，对 61 个测试起点和 370 个用户取平均；1、6、24 小时分别取第 4、24、96 个预测点，全天指标对全部 96 点平均。
+使用 [UCI ElectricityLoadDiagrams20112014](https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014) 的 2014 年数据，用 370 个用户过去 96 个 15 分钟点预测未来 96 点，比较四种编码器的效果。以下 MAE 在反标准化后的 kW 空间计算，对 61 个测试起点和 370 个用户取平均；1、6、24 小时分别取第 4、24、96 个预测点，全天指标对全部 96 点平均。
 
 | 模型 | 1 小时 MAE | 6 小时 MAE | 24 小时 MAE | 全天 MAE |
 |---|---:|---:|---:|---:|
