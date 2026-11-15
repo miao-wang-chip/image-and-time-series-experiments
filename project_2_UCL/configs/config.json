@@ -1,0 +1,17 @@
+{
+  "start": "2014-01-01 00:15:00",
+  "train_end": "2014-09-01 00:00:00",
+  "val_end": "2014-11-01 00:00:00",
+  "end": "2015-01-01 00:00:00",
+  "history": 96,
+  "horizon": 96,
+  "train_stride": 24,
+  "eval_stride": 96,
+  "width": 32,
+  "state_size": 8,
+  "batch_size": 32,
+  "epochs": 20,
+  "lr": 0.001,
+  "seed": 42,
+  "threads": 4
+}

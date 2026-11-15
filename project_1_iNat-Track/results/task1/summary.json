@@ -1,0 +1,28 @@
+[
+  {
+    "model": "resnet50",
+    "trainable_parameters": 204900,
+    "top1_pct": 44.999998807907104,
+    "top5_pct": 72.00000286102295,
+    "macro_f1_pct": 41.24719500541687,
+    "best_epoch": 2,
+    "best_val_loss": 2.622354030609131,
+    "feature_seconds": 56.640619,
+    "train_samples": 600,
+    "val_samples": 200,
+    "test_samples": 200
+  },
+  {
+    "model": "vit_b_16",
+    "trainable_parameters": 76900,
+    "top1_pct": 34.99999940395355,
+    "top5_pct": 63.999998569488525,
+    "macro_f1_pct": 31.6095232963562,
+    "best_epoch": 3,
+    "best_val_loss": 2.7892065048217773,
+    "feature_seconds": 144.8969037,
+    "train_samples": 600,
+    "val_samples": 200,
+    "test_samples": 200
+  }
+]

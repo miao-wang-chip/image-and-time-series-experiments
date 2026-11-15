@@ -1,0 +1,12 @@
+{
+  "rows": 140256,
+  "users": 370,
+  "first": "2011-01-01 00:15:00",
+  "last": "2015-01-01 00:00:00",
+  "missing": 0,
+  "sha256": "d51565f2cb5a6b768d06ba1bbd3c084c6e2f3aab07f00c6f2dcb80e90175124b",
+  "selected_rows": 35040,
+  "selected_first": "2014-01-01 00:15:00",
+  "selected_last": "2015-01-01 00:00:00",
+  "zero_fraction": 0.018463994816734542
+}

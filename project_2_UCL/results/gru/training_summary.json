@@ -1,0 +1,6 @@
+{
+  "parameters": 39794,
+  "best_epoch": 8,
+  "best_val_mae_kw": 58.70549774169922,
+  "seconds": 23.5725401
+}

@@ -1,0 +1,17 @@
+{
+  "model": "resnet50_se",
+  "use_se": true,
+  "feature_dim": 2048,
+  "head_parameters": 204900,
+  "added_se_parameters": 526464,
+  "trainable_parameters": 731364,
+  "top1_pct": 51.5,
+  "top5_pct": 71.5,
+  "macro_f1_pct": 46.75714285714285,
+  "best_epoch": 3,
+  "best_val_loss": 2.351653814315796,
+  "training_seconds": 7.381337199999999,
+  "train_samples": 600,
+  "val_samples": 200,
+  "test_samples": 200
+}

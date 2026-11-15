@@ -1,0 +1,5 @@
+﻿model,row_index,sample_id,true_label,true_species,pred_label,pred_species,top5
+ResNet-50,395,3082102,10,Batrachoseps attenuatus,10,Batrachoseps attenuatus,"[10, 82, 46, 31, 50]"
+ViT-B/16,395,3082102,10,Batrachoseps attenuatus,50,Lysurus mokusin,"[50, 10, 22, 82, 2]"
+ResNet-50+SE,395,3082102,10,Batrachoseps attenuatus,10,Batrachoseps attenuatus,"[10, 82, 46, 31, 50]"
+ViT-B/16+SE,395,3082102,10,Batrachoseps attenuatus,50,Lysurus mokusin,"[50, 10, 82, 22, 66]"

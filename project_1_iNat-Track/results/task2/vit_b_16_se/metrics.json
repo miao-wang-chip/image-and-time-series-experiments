@@ -1,0 +1,17 @@
+{
+  "model": "vit_b_16_se",
+  "use_se": true,
+  "feature_dim": 768,
+  "head_parameters": 76900,
+  "added_se_parameters": 74544,
+  "trainable_parameters": 151444,
+  "top1_pct": 34.5,
+  "top5_pct": 60.5,
+  "macro_f1_pct": 30.13109668109668,
+  "best_epoch": 3,
+  "best_val_loss": 2.7438759803771973,
+  "training_seconds": 2.872493000000002,
+  "train_samples": 600,
+  "val_samples": 200,
+  "test_samples": 200
+}

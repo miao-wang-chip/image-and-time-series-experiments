@@ -1,0 +1,4 @@
+{
+  "source": "results/task2_previous/features",
+  "reason": "reuse already extracted identical frozen spatial/patch summaries; retrain Task 1 heads"
+}

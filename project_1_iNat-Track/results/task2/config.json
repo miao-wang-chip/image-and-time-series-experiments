@@ -1,0 +1,34 @@
+{
+  "args": {
+    "data": "data/train-00000-of-00001.parquet",
+    "baseline": "results/task1",
+    "output": "results/task2",
+    "epochs": 300,
+    "threads": 8,
+    "seed": 42,
+    "reduction": 16,
+    "lr": 0.01
+  },
+  "data_sha256": "7c59130b9f2d258d29c770254e4b72a08cb1b52e3de7fb012eb6db7385d7817c",
+  "split_sha256": "c664fcbe949cea7c617da77c9214ca915516dcf6635a4f7716518795339f683d",
+  "samples": 1000,
+  "classes": 100,
+  "split_sizes": {
+    "train": 600,
+    "val": 200,
+    "test": 200
+  },
+  "python": "3.9.9",
+  "python_executable": "D:\\python\\pythonsetup\\python.exe",
+  "torch": "2.7.1+cpu",
+  "torchvision": "0.22.1+cpu",
+  "numpy": "2.0.2",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "device": "cpu",
+  "optimizer": "AdamW, full batch, weight_decay=0.01",
+  "selection": "minimum validation cross entropy over all epochs",
+  "gate": "standardize pooled summary -> Linear(D,D//r,bias) -> ReLU -> Linear(D//r,D,bias) -> Sigmoid; multiply standardized summary",
+  "paired_controls": "same frozen features, splits, classifier initialization, normalization, optimizer, epochs and selection",
+  "baseline_config_sha256": "c07358a7fe88eb8e8e616202b0906973282dd3cd41b6274417a55bfef80ddc49",
+  "baseline_root": "results\\task1"
+}

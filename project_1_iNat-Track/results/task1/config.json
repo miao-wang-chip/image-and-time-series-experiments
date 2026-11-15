@@ -1,0 +1,26 @@
+{
+  "args": {
+    "data": "data/train-00000-of-00001.parquet",
+    "epochs": 300,
+    "batch_size": 16,
+    "threads": 8
+  },
+  "seed": 42,
+  "data_sha256": "7c59130b9f2d258d29c770254e4b72a08cb1b52e3de7fb012eb6db7385d7817c",
+  "samples": 1000,
+  "classes": 100,
+  "split_sizes": {
+    "train": 600,
+    "val": 200,
+    "test": 200
+  },
+  "torch": "2.7.1+cpu",
+  "torchvision": "0.22.1+cpu",
+  "python": "3.9.9",
+  "device": "cpu",
+  "feature_pooling": "resnet layer4 spatial mean; vit final patch token mean excluding CLS",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "head": "Linear + bias; train-only feature standardization",
+  "optimizer": "AdamW lr=0.01 weight_decay=0.01; full batch",
+  "selection": "minimum validation cross entropy; test evaluated once after selection"
+}

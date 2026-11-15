@@ -1,1 +1,8 @@
-# image-and-time-series-experiments
+# 图像与时序实验
+
+本仓库包含两个独立实验：
+
+- [图像物种分类：冻结视觉骨干与 SE 消融](project_1_iNat-Track/README.md)
+- [时序预测：UCI 多用户电力负荷](project_2_UCL/README.md)
+
+各项目的运行方式、实验结果及技术报告见各自的 README。原始数据和视觉预训练权重体积较大，未纳入仓库；复现前请按各项目说明准备。

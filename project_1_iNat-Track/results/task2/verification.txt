@@ -1,0 +1,6 @@
+resnet50: PASS; predictions reproduced from saved features and head; metrics, parameters, best epoch and normalization verified
+resnet50_se: PASS; predictions reproduced from saved features and head; metrics, parameters, best epoch and normalization verified
+resnet50 pair: PASS; identical feature cache, classifier initialization, normalization and test IDs
+vit_b_16: PASS; predictions reproduced from saved features and head; metrics, parameters, best epoch and normalization verified
+vit_b_16_se: PASS; predictions reproduced from saved features and head; metrics, parameters, best epoch and normalization verified
+vit_b_16 pair: PASS; identical feature cache, classifier initialization, normalization and test IDs

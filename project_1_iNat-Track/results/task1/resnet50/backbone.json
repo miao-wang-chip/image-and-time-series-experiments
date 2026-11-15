@@ -1,0 +1,10 @@
+{
+  "weights": "ResNet50_Weights.IMAGENET1K_V2",
+  "url": "https://download.pytorch.org/models/resnet50-11ad3fa6.pth",
+  "sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+  "transform": "ImageClassification(\n    crop_size=[224]\n    resize_size=[232]\n    mean=[0.485, 0.456, 0.406]\n    std=[0.229, 0.224, 0.225]\n    interpolation=InterpolationMode.BILINEAR\n)",
+  "pooling": "layer4 spatial mean over H,W",
+  "feature_dim": 2048,
+  "frozen_parameters": 23508032,
+  "trainable_backbone_parameters": 0
+}

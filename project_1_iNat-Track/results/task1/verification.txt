@@ -1,0 +1,1 @@
+PASS: disjoint 600/200/200 split; identical 200 test IDs; 2 samples/class; predictions reproduce all metrics and confusion matrices; zero trainable backbone parameters.

@@ -1,0 +1,5 @@
+﻿model,trainable_parameters,top1_pct,top5_pct,macro_f1_pct,best_epoch,best_val_loss,feature_seconds,train_samples,val_samples,test_samples,use_se,feature_dim,head_parameters,added_se_parameters,result_source,training_seconds
+resnet50,204900,44.999998807907104,72.00000286102295,41.24719500541687,2,2.622354030609131,56.640619,600,200,200,False,2048,204900,0,results\task1\resnet50\metrics.json,
+resnet50_se,731364,51.5,71.5,46.75714285714285,3,2.351653814315796,,600,200,200,True,2048,204900,526464,results\task2\resnet50_se\metrics.json,7.381337199999999
+vit_b_16,76900,34.99999940395355,63.999998569488525,31.6095232963562,3,2.7892065048217773,144.8969037,600,200,200,False,768,76900,0,results\task1\vit_b_16\metrics.json,
+vit_b_16_se,151444,34.5,60.5,30.13109668109668,3,2.7438759803771973,,600,200,200,True,768,76900,74544,results\task2\vit_b_16_se\metrics.json,2.872493000000002
